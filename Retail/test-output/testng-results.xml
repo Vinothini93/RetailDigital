@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39565" started-at="2018-09-23T18:46:22Z" finished-at="2018-09-23T18:47:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="39565" started-at="2018-09-23T18:46:22Z" finished-at="2018-09-23T18:47:02Z">
+      <class name="tests.NewTest">
+        <test-method status="PASS" signature="setupTestData()[pri:0, instance:tests.NewTest@50c87b21]" name="setupTestData" is-config="true" duration-ms="18" started-at="2018-09-24T00:16:22Z" finished-at="2018-09-24T00:16:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestData -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:tests.NewTest@50c87b21]" name="SetUp" is-config="true" duration-ms="18309" started-at="2018-09-24T00:16:25Z" finished-at="2018-09-24T00:16:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="signIn(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.NewTest@50c87b21]" name="signIn" duration-ms="2321" started-at="2018-09-24T00:16:43Z" data-provider="Auth" finished-at="2018-09-24T00:16:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.NewTest@50c87b21]" name="afterMethod" is-config="true" duration-ms="1754" started-at="2018-09-24T00:16:45Z" finished-at="2018-09-24T00:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:tests.NewTest@50c87b21]" name="SetUp" is-config="true" duration-ms="10621" started-at="2018-09-24T00:16:47Z" finished-at="2018-09-24T00:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="vino(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.NewTest@50c87b21]" name="vino" duration-ms="2191" started-at="2018-09-24T00:16:58Z" data-provider="Auth" finished-at="2018-09-24T00:17:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vino -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.NewTest@50c87b21]" name="afterMethod" is-config="true" duration-ms="1295" started-at="2018-09-24T00:17:00Z" finished-at="2018-09-24T00:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
